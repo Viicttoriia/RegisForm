@@ -6,7 +6,8 @@
 
 
 ## Project Description
-Basic and Cutely styled HTML Form
+
+<p style="text-align: center;">Basic and Cutely styled HTML Form</p>
 
 ## Langs Used
 Markdown, HTML, Java, Style
