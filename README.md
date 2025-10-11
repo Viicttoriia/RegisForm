@@ -1,6 +1,6 @@
-<div style="text-align:center;">
+
 # Registration Form
-- Coded by Victoria Wiley ![cutecat](cute-cat.webp)
+- Coded by Victoria Wiley ![cutecat](cute-cat.webp "Cutecat")
 
 ## Project Description
 Baisic and Cutely styled HTML
@@ -17,4 +17,3 @@ Prevents Default Form Submission Begavior
 
 ## TODO
 
-</div>
