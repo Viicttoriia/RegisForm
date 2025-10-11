@@ -1,4 +1,4 @@
-<h2 style="align:center;"> Registration Form </h2>
+<h4 style="align:center;"> Registration Form </h4>
 - Coded by Victoria Wiley<br> 
 
 
