@@ -1,9 +1,7 @@
 # Registration Form 
 - Coded by Victoria Wiley<br> 
 
-
 ![cutecat](cute-cat.webp "Cutecat")
-
 
 ## Project Description
 
@@ -11,7 +9,10 @@ Basic and Cutely styled HTML Form
 
 
 ## Langs Used
-Markdown, HTML, Java, Style
+-Markdown 
+-HTML 
+-Java 
+-Style
 
 
 ## Features
@@ -36,8 +37,8 @@ Prevents Default Form Submission Begavior
     []- Interests (checkbox)
     []- Submit Button
 []-Style
-    []-
-    []-
+    [x]-pick color scheme
+    []- color containers
     []-
     []-
 []- Java
@@ -47,5 +48,5 @@ Prevents Default Form Submission Begavior
     []-
     []-
     []-
-    
+
 
