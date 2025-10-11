@@ -1,4 +1,4 @@
-
+<div style="text-align:center;">
 # Registration Form
 - Coded by Victoria Wiley ![cutecat](cute-cat.webp)
 
@@ -17,3 +17,4 @@ Prevents Default Form Submission Begavior
 
 ## TODO
 
+</div>
