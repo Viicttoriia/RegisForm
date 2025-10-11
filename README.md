@@ -1,4 +1,4 @@
-<div style="text-algin:center;">
+<p style="text-algin:center;">
 
 ## Registration Form
 - Coded by Victoria Wiley<br> 
@@ -8,7 +8,7 @@
 
 
 ## Project Description
-Baisic and Cutely styled HTML
+Basic and Cutely styled HTML Form
 
 ## Langs Used
 Markdown, HTML, Java, Style
@@ -22,4 +22,4 @@ Prevents Default Form Submission Begavior
 
 ## TODO
 
-</div>
+</p>
