@@ -1,4 +1,5 @@
-<h4 style="align:center;"> Registration Form </h4>
+<html>
+<h1 style="text-align:center;"> Registration Form </h1>
 - Coded by Victoria Wiley<br> 
 
 
@@ -19,4 +20,4 @@ Prevents Default Form Submission Begavior
 ## Color Scheme 
 
 ## TODO
-
+</html>
