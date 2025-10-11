@@ -1,5 +1,5 @@
 <html>
-<h1 style="text-align:center;"> Registration Form </h1>
+<h1 style="text-align: center;"> Registration Form </h1>
 - Coded by Victoria Wiley<br> 
 
 
