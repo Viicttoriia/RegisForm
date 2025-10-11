@@ -1,6 +1,6 @@
 
 # Registration Form
-- Coded by Victoria Wiley
+- Coded by Victoria Wiley ![cutecat](cute-cat.webp)
 
 ## Project Description
 Baisic and Cutely styled HTML
