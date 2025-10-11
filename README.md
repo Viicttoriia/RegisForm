@@ -1,6 +1,4 @@
-<div align"center">
-
-## Registration Form
+<h2 style="text-align:center;">Registration Form</h2>
 - Coded by Victoria Wiley<br> 
 
 
@@ -22,4 +20,3 @@ Prevents Default Form Submission Begavior
 
 ## TODO
 
-</div>
