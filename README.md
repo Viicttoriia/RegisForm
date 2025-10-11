@@ -1,4 +1,4 @@
-<center>
+<div style="text-algin:center;">
 
 ## Registration Form
 - Coded by Victoria Wiley<br> 
@@ -22,4 +22,4 @@ Prevents Default Form Submission Begavior
 
 ## TODO
 
-</center>
+</div>
