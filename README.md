@@ -1,5 +1,6 @@
 <center>
-# Registration Form
+
+## Registration Form
 - Coded by Victoria Wiley<br> 
 
 
