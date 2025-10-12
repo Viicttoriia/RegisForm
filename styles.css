@@ -1,12 +1,11 @@
 html { display: grid;
   align-items: center;
-  margin: 100px;  
+  margin:25%;  
   text-align:center;
   background-color:#6b7db3;
 }
 main {
-  padding:10px;
-  display:flex;
+    display:flex;
   flex-direction: column;
 }
 
@@ -15,10 +14,10 @@ main {
   background-color:#e4ddc3;
   box-shadow: 6px 6px 16px #e8b877;
   opacity: 80%;
-  padding:40px;
+  padding:50px;
   border-radius: 2rem;
+  max-width:fit-content;
   max-height: fit-content;
-  z-index: postion 2;
 }
 
 .FormDiv {
@@ -28,7 +27,7 @@ main {
   opacity: 80%;
   padding:40px;
   border-radius: 2rem;
-  max-width:fit-content;
+  max-width:400px;
   max-height: fit-content;
   z-index: postion 1;
 
