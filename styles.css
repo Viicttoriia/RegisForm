@@ -6,6 +6,11 @@ html {
   justify-items: center;
 }
 
+.TitleDiv {
+  border-style: solid;
+  border-color:aquamarine;
+}
+
 #Title {
     margin:2%;
     padding:100px;
@@ -13,8 +18,7 @@ html {
     flex-direction: column;
     align-items: center;
 }
-
-h1 {
+.Title {
   background-color: #b36b6b;
   color: #ff9999;
   border-color: #e4ddc3;
@@ -25,7 +29,6 @@ h1 {
   min-width: 300px;
   max-width: 350px;
 }
-
 #Intro {
     display: inline-block;
     max-width: fit-content;
@@ -34,7 +37,27 @@ h1 {
     border-radius: 20rem;
     color: #ffff99;
 }
-
-#Name {
-
+/*end of first box*/
+/*start of second box*/
+.GreetingDiv {
+  padding:10rem;
+  border-style: solid;
+  border-color:aquamarine;
 }
+.Greet {padding:10%;
+  animation: color-change 3s infinite alternate;
+}
+
+@keyframes color-change {
+  0% {
+    color: red; /* Starting color */
+  }
+  25% {
+    color: blue; /* Color at 25% of animation */
+  }
+  50% {
+    color: green; /* Color at 50% of animation */
+  }
+  75% {
+    color: purple; /* Color at 75% of animation */
+  }
