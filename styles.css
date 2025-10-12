@@ -3,9 +3,15 @@ html { display: grid;
   margin:25%;  
   text-align:center;
   background-color:#6b7db3;
+  font-family: cursive;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 main {
-    display:flex;
+  display: flex;
   flex-direction: column;
 }
 
@@ -14,24 +20,37 @@ main {
   background-color:#e4ddc3;
   box-shadow: 6px 6px 16px #e8b877;
   opacity: 80%;
-  padding:50px;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
   border-radius: 2rem;
-  max-width:fit-content;
-  max-height: fit-content;
+  max-width: 400px;
+  max-height: 100%;
+}
+
+h1 {
+  text-align: center;
+  color:#733b3d;
 }
 
 .FormDiv {
-  margin:100px;
+  margin-top: 20vh;
   background-color:#e4ddc3;
   box-shadow: 8px 8px 18px #e8b877;
   opacity: 80%;
-  padding:40px;
+  padding:60px;
   border-radius: 2rem;
-  max-width:400px;
+  max-width:75%;
   max-height: fit-content;
   z-index: postion 1;
-
 }
+
+/*dissapear*/
+
+.intro {
+  margin-top: 20vh;
+  color:lightsteelblue;
+}
+/*end dissapering text*/
 
 .Name {
   padding:20px;
@@ -81,6 +100,13 @@ main {
   border-radius:2em;
   border-width:5px;
 }
+
+input {
+  background-color: #F5EFE6;
+  border-radius: 2em;
+  border-color: #9999ff;
+}
+
 button {
   width:100px;
   height:20px;
