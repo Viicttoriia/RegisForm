@@ -22,11 +22,14 @@ Prevents Default Form Submission Begavior
 
 
 ## Color Scheme 
-#485867
-#5e6f68
+#6b7db3
+#9999ff
+#ff9999
+#b36b6b
+#b3b36b
+#ffff99
 #e4ddc3
 #e8b877
-#706c51
 
 ## TODO
 []- HTML
@@ -37,8 +40,8 @@ Prevents Default Form Submission Begavior
     []- Interests (checkbox)
     []- Submit Button
 []-Style
-    [x]-pick color scheme
-    []- color containers
+    [x]- Pick Color Scheme
+    []- Class Containers
     []-
     []-
 []- Java

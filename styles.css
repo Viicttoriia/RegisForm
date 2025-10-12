@@ -1,0 +1,31 @@
+html {
+    background-color:#6b7db3;
+    display:grid;
+    text-align:center;
+    padding:5%;
+    justify-items: center;
+}
+
+#TitleBox {
+    padding:2rem;
+    background-color:#9999ff;
+    z-index: -1;
+    border-radius: 20px;
+    border-color:#ffff99;
+    border-style:solid
+}
+
+h1 {
+    background-color:#b36b6b;
+    color:#ff9999;
+    border-color: #e4ddc3;
+    border-width: 5px;
+    border-style:dashed;
+    border-radius: 2rem;
+    padding:5px;
+    min-width:300px;
+    max-width:350px;
+}
+#Name {
+
+}
