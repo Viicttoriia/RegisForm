@@ -10,41 +10,116 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles.css">
     </head>
-    <body>
+        <body>
+            <!--Animation Box -->
+            <!--Confetti Start -->
+            <div class="confetti-container">
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>  
+                <div class="confettii"></div>
+                <div class="confettii"></div>
+                <div class="confettii"></div>
+                <div class="confettii"></div>
+                <div class="confettii"></div>
+                <div class="confettii"></div>
+            </div>
+            <!--Confetti End-->
+        <main>    
         <!--Title Start-->
-        <container class="one">
+            <div class="TitleDiv">
             <h1 class="Title">Registration Form</h1>
             <p id="Intro">Complete the Form to Sign Up!</p>
-        </container>
+        </div>
         <!--Title End-->
         <!--Form Start-->
-        <container class="two">
-            <form action="/submit-form" method="post">
+            <container class="FormDiv">
+                <form action="/submit-form" method="post">
         <!--Name Start-->
-                <h2> What's Your Name? </h2>
-                    <p>First Name: <input id="FirstName" label="First Name:" type="text"></input>
-                    <br>
-                    <br>
-                    Last Name: <input id="LastName" label="Last Name:" type="text"></input></p>
+                    <div class="Name">
+                        <h2> What's Your Name? </h2>
+                            <p>
+                                <label for="FirstName">First Name:</label>
+                                <input id="FirstName" type="text" required></input>
+                                <br>
+                                <br>
+                                <label for="LastName">Last Name:</label>
+                                <input id="LastName" type="text" required>
+                            </p>
+                    </div>
         <!--Email Start-->
-                <h2>Let's Keep In Touch!</h2>
-                    <p>What's your Email? <input id="Email" label="Email" type="email"></input></p> 
+                    <div class="Email">
+                        <h2>Let's Keep In Touch!</h2>
+                            <p> 
+                                <label for="Email">What's your Email?</label>
+                                <input id="Email" label="Email" type="email" required>
+                            </p>     
+                    </div>
         <!--Birthday Start-->
-                <h2>Let's Have A Party Soon!</h2>
-                    <p>When's Your Birthday?</p>
-                
+                    <div class="BirthdayDiv">
+                        <h2>Let's Have A Party Soon!</h2>
+                            <p>
+                                <label for="Birthday">When's Your Birthday?</label>
+                                <br>
+                                <br>
+                                <input id="Birthday" type="date" required>
+                            </p>
+                    </div>
             <!---Make A Password-->
-            <h2>Secure Your Account</h2>
-            <p>Choose a password, </p>
-            <input></input>
+                    <div class="PasswordDiv">
+                        <h2>Secure Your Account</h2>
+                            <p>Choose a password,</p>
+                            <label for="Password">Password:</label>
+                            <input id="Password" type="text" required>
+                    </div>
             <!---Intrest Checkboxes--->
-            <container class="Intrest">
-            <h2>Tell Me about Your Intrest!</h2>
-            <p>Checkboxes Here</p>
-            
-            <button type="Submit">Submit</button>
-            </form>
-        </container>
+                    <div class="IntrestDiv">
+                        <h2>Tell Me about Your Intrest!</h2>
+                            <container class="IntrestCon">
+                                <fieldset>
+                                    <label><input type="checkbox" name="interests" value="coding"> Coding </label>
+                                    <label><input type="checkbox" name="interests" value="reading"> Reading </label>
+                                    <label><input type="checkbox" name="interests" value="gaming"> Gaming </label>
+                                    <label><input type="checkbox" name="interests" value="art"> Art </label>
+                                    <label><input type="checkbox" name="interests" value="nails"> Nails </label>
+                                    <label><input type="checkbox" name="interests" value="sports"> Sports </label>
+                                    <label><input type="checkbox" name="interests" value="cooking"> Cooking </label>
+                                    <label><input type="checkbox" name="interests" value="crafting"> Crafting</label>
+                                    <label><input type="checkbox" name="interests" value="makeup"> Makeup </label>
+                                    <label><input type="checkbox" name="interests" value="gardening"> Gardening </label>
+                                    <label><input type="checkbox" name="interests" value="singing"> Singing </label>
+                                    <label><input type="checkbox" name="interests" value="dancing"> Dancing </label>
+                                    <label><input type="checkbox" name="interests" value="goingout"> Going-out </label>
+                                    <label><input type="checkbox" name="interests" value="reading"> Reading </label>
+                                    <label><input type="checkbox" name="interests" value="math"> Math </label>
+                                    <label><input type="checkbox" name="interests" value="science"> Science </label>
+                                    <label><input type="checkbox" name="interests" value="writing"> Writing </label>
+                                    <label><input type="checkbox" name="interests" value="movies"> Movies </label>
+                                    <label><input type="checkbox" name="interests" value="hikeing"> Hikeing </label>
+                                    <label><input type="checkbox" name="interests" value="swimming"> Swiming </label>
+                            <!--OTHER Entry--><br>
+                                    <label for="other"> Other: </label><input type="text" name="other">
+                                    </fieldset> 
+                            </container>
+                    </div>
+                    <br>
+                    <container class="Submit">
+                        <div class="ButtonDiv">
+                            <button type="Submit">Submit</button>
+                        </div>
+                    </container>
+                </form>
+            </container>
+            </main>
         </body>
     <footer>
 

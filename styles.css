@@ -1,0 +1,258 @@
+html { display: grid;
+  align-items: center;
+  margin: 100px;  
+  text-align:center;
+  background-color:#6b7db3;
+}
+main {
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+}
+
+.TitleDiv {
+  margin:100px;
+  background-color:#e4ddc3;
+  box-shadow: 6px 6px 16px #e8b877;
+  opacity: 80%;
+  padding:40px;
+  border-radius: 2rem;
+  max-height: fit-content;
+  z-index: postion 2;
+}
+
+.FormDiv {
+  margin:100px;
+  background-color:#e4ddc3;
+  box-shadow: 8px 8px 18px #e8b877;
+  opacity: 80%;
+  padding:40px;
+  border-radius: 2rem;
+  max-width:fit-content;
+  max-height: fit-content;
+  z-index: postion 1;
+
+}
+
+.Name {
+  padding:20px;
+  background-color:#b36b6b;
+  border-radius: 2em;
+  border-color:#ffff99;
+  border-style:dashed;
+  border-width:4px;
+  color:#ff9999;
+  text-shadow: 8px, 6px, 18px, #2f2c21;
+}
+.Email {
+  margin:20px;
+  padding:20px;
+  background-color:#e8b877;
+  border-style:dotted;
+  border-width:6px;
+  border-radius: 2em;
+  border-color:#6b7db3;
+  color:#9999ff
+}
+.BirthdayDiv {
+  padding:20px;
+  background-color:#b3b36b;
+  border-radius: 2em;
+  border-color:#ffff99;
+  border-style:double;
+  border-width:4px;
+  color:#b36b6b;
+  text-shadow: 8px, 6px, 18px, #2f2c21;
+}
+.PasswordDiv {
+  margin:20px;
+  padding:20px;
+  background-color:#6b7db3;
+  color:#e8b877;
+  border-radius: 2em;
+  border-color:#ff9999;
+  border-style:groove;
+  border-width:6px;
+}
+.IntrestDiv { margin:auto;padding:20px;
+  background-color:#e8b877;
+  color: #ffff99;
+  border-color:#9999ff;
+  border-style:ridge;
+  border-radius:2em;
+  border-width:5px;
+}
+button {
+  width:100px;
+  height:20px;
+  background-color:#b3b36b;
+  color:#b36b6b; 
+  border-color:#ffff99;
+}
+/*DO NOT CODE PAST THIS POINT*/
+/*confetti start*/
+.confetti-container {
+   /* Or relative, depending on your layout */
+  overflow: hidden; /* Hide confetti pieces that are outside the container */
+  pointer-events: none; /* Allow interaction with elements beneath the confetti */
+  z-index: -1;
+}
+/*circle confetti*/
+.confetti {
+  position: fixed;
+  width: 3px;
+  height: 10px;
+  background-color: #f0f; /* Example color, use different colors for variety */
+  border-radius: 50%; /* For circular confetti, use 0 for square */
+  opacity: 0;
+  animation: confetti-fall linear infinite;
+  z-index: -1;
+}
+/*square confetti*/
+.confettii {
+  position: fixed;
+  width: 3px;
+  height: 10px;
+  background-color: #f0f; /* Example color, use different colors for variety */
+  border-radius: 0%; /* For circular confetti, use 0 for square */
+  opacity: 0;
+  animation: confetti-fall linear infinite;
+  z-index: -1;
+}
+
+/* Define the falling animation */
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-2000%) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(200vh) rotate(720deg); /* Adjust 100vh based on desired fall distance */
+    opacity: 0;
+  }
+}
+
+/* Apply varying animation properties for different confetti pieces */
+.confetti:nth-child(1) {
+  left: 10%;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  background-color: #0ff;
+}
+
+.confetti:nth-child(2) {
+  left: 30%;
+  animation-duration: 9s;
+  animation-delay: 1s;
+  background-color: #ff0;
+}
+
+.confetti:nth-child(3) {
+  left: 60%;
+  animation-duration: 6s;
+  animation-delay: 4s;
+  background-color: #f00;
+}
+
+.confetti:nth-child(4) {
+  left: 15%;
+  animation-duration: 5s;
+  animation-delay: -2s;
+  background-color: #0ff;
+}
+
+.confetti:nth-child(5) {
+  left: 45%;
+  animation-duration: 7s;
+  animation-delay: 6s;
+  background-color: #ff0;
+}
+
+.confetti:nth-child(6) {
+  left: 80%;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  background-color: #f00;
+}
+.confetti:nth-child(7) {
+  right: 10%;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  background-color: #0ff;
+}
+
+.confetti:nth-child(8) {
+  right: 30%;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  background-color: #ff0;
+}
+
+.confetti:nth-child(9) {
+  right: 60%;
+  animation-duration: 9s;
+  animation-delay: 2s;
+  background-color: #f00;
+}
+
+.confetti:nth-child(10) {
+  right: 15%;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  background-color: #0ff;
+}
+
+.confetti:nth-child(11) {
+  right: 45%;
+  animation-duration: 7s;
+  animation-delay: 2s;
+  background-color: #ff0;
+}
+
+.confetti:nth-child(12) {
+  right: 80%;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  background-color: #f00;
+}
+
+.confettii:nth-child(13) {
+  left: 75%;
+  animation-duration: 22s;
+  animation-delay: 9s;
+  background-color: #0ff;
+}
+.confettii:nth-child(14) {
+  right: 95%;
+  animation-duration: 22s;
+  animation-delay: 7s;
+  background-color: #ff0;
+}
+.confettii:nth-child(15) {
+  right: 32%;
+  animation-duration: 22s;
+  animation-delay: 5s;
+  background-color: #f00;
+}
+.confettii:nth-child(16) {
+  right: 62%;
+  animation-duration: 25s;
+  animation-delay: 8s;
+  background-color: #0ff;
+}
+.confettii:nth-child(17) {
+  left: 32%;
+  animation-duration: 18s;
+  animation-delay: 6s;
+  background-color: #ff0;
+}
+.confettii:nth-child(18) {
+  right: 24%;
+  animation-duration: 18s;
+  animation-delay: 5s;
+  background-color: #f00;
+}
+/*end confetti*/
