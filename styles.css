@@ -1,22 +1,23 @@
-html { display: grid;
-  align-items: center;
-  margin:25%;  
+html { display: flex;
+  flex-direction: column;
+  align-content: center;
   text-align:center;
   background-color:#6b7db3;
   font-family: cursive;
+  margin: 100px;
+
 }
 body {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+align-content: center;
 }
+
 main {
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
 
 .TitleDiv {
-  margin:100px;
   background-color:#e4ddc3;
   box-shadow: 6px 6px 16px #e8b877;
   opacity: 80%;
@@ -92,7 +93,8 @@ h1 {
   border-style:groove;
   border-width:6px;
 }
-.IntrestDiv { margin:auto;padding:20px;
+.IntrestDiv { margin:auto;
+  padding:20px;
   background-color:#e8b877;
   color: #ffff99;
   border-color:#9999ff;
@@ -100,20 +102,35 @@ h1 {
   border-radius:2em;
   border-width:5px;
 }
-
+/*inputs*/
 input {
   background-color: #F5EFE6;
   border-radius: 2em;
   border-color: #9999ff;
+  color:darkcyan;
+}
+input [checkbox] {
+  color-scheme: inherit;
+}
+input:focus {
+  background-color: color-mix(10,10,10, 10%, 20%);
 }
 
 button {
   width:100px;
   height:20px;
   background-color:#b3b36b;
-  color:#b36b6b; 
+  color:#561e1e; 
   border-color:#ffff99;
 }
+/* This is the disappearing text start*/
+/*divider styleing*/
+.popup {
+  margin-top:50vh
+}
+
+/* This is the End of dissapearing Box */
+
 /*DO NOT CODE PAST THIS POINT*/
 /*confetti start*/
 .confetti-container {
