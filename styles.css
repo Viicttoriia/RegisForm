@@ -1,36 +1,59 @@
-html { display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-align:center;
+html {
   background-color:#6b7db3;
   font-family: cursive;
-  margin: 100px;
-
-}
-body {
-align-content: center;
+  margin: 10px;
+  margin-bottom: 15px;
 }
 
-main {
-  display: flex;
+body { display:flex;
+  align-items:center;
   flex-direction: column;
-  align-content: center;
 }
 
 .TitleDiv {
-  background-color:#e4ddc3;
-  box-shadow: 6px 6px 16px #e8b877;
-  opacity: 80%;
-  padding-inline-start: 2rem;
-  padding-inline-end: 2rem;
-  border-radius: 2rem;
-  max-width: 400px;
-  max-height: 100%;
+  margin-top: 50vh;
+  /*highlighter*/
+  border-color:#f00;
+  border-width:3px;
+  border-style:solid; 
+  
+}
+
+/*dissapear*/
+.hide:hover.popup {
+  
+  /*highlighter*/
+  border-color:rgb(220, 152, 17);
+  border-width:3px;
+  border-style:solid; 
+}
+
+.popup {
+  color:lightsteelblue;
+   /*highlighter*/
+  border-color:rgb(205, 212, 140);
+  border-width:3px;
+  border-style:solid;
+  opacity: 1; 
+}
+/*end dissapering text*/
+
+main {
+  /*highlighter*/
+  border-color:rgb(16, 140, 212);
+  border-width:3px;
+  border-style:solid; 
 }
 
 h1 {
   text-align: center;
   color:#733b3d;
+  background-color:#e4ddc3;
+  box-shadow: 8px 8px 18px #e8b877;
+  border-radius: 2rem;
+  min-width: fit-content;
+  max-width: 350px;
+  padding:10px;
 }
 
 .FormDiv {
@@ -43,15 +66,12 @@ h1 {
   max-width:75%;
   max-height: fit-content;
   z-index: postion 1;
+  border-color:#f00;
+  border-width:3px;
+  border-style:solid; 
 }
 
-/*dissapear*/
 
-.intro {
-  margin-top: 20vh;
-  color:lightsteelblue;
-}
-/*end dissapering text*/
 
 .Name {
   padding:20px;
@@ -123,29 +143,32 @@ button {
   color:#561e1e; 
   border-color:#ffff99;
 }
+
 /* This is the disappearing text start*/
 /*divider styleing*/
 .popup {
   margin-top:50vh
 }
-
 /* This is the End of dissapearing Box */
 
 /*DO NOT CODE PAST THIS POINT*/
 /*confetti start*/
 .confetti-container {
-   /* Or relative, depending on your layout */
-  overflow: hidden; /* Hide confetti pieces that are outside the container */
-  pointer-events: none; /* Allow interaction with elements beneath the confetti */
+  position: relative;
+  overflow: hidden; 
   z-index: -1;
+  /*highlighter*/
+  border-color:rgb(238, 0, 255);
+  border-width:3px;
+  border-style:solid;
 }
 /*circle confetti*/
 .confetti {
   position: fixed;
   width: 3px;
   height: 10px;
-  background-color: #f0f; /* Example color, use different colors for variety */
-  border-radius: 50%; /* For circular confetti, use 0 for square */
+  background-color: #f0f; 
+  border-radius: 50%; 
   opacity: 0;
   animation: confetti-fall linear infinite;
   z-index: -1;
@@ -155,8 +178,8 @@ button {
   position: fixed;
   width: 3px;
   height: 10px;
-  background-color: #f0f; /* Example color, use different colors for variety */
-  border-radius: 0%; /* For circular confetti, use 0 for square */
+  background-color: #f0f;
+  border-radius: 0%; 
   opacity: 0;
   animation: confetti-fall linear infinite;
   z-index: -1;
@@ -172,7 +195,7 @@ button {
     opacity: 1;
   }
   100% {
-    transform: translateY(200vh) rotate(720deg); /* Adjust 100vh based on desired fall distance */
+    transform: translateY(100vh) rotate(720deg); /* Adjust 100vh based on desired fall distance */
     opacity: 0;
   }
 }
@@ -219,6 +242,7 @@ button {
   animation-delay: 4s;
   background-color: #f00;
 }
+
 .confetti:nth-child(7) {
   right: 10%;
   animation-duration: 3s;
@@ -232,6 +256,7 @@ button {
   animation-delay: 1s;
   background-color: #ff0;
 }
+
 .confetti:nth-child(9) {
   right: 60%;
   animation-duration: 9s;
@@ -266,30 +291,35 @@ button {
   animation-delay: 9s;
   background-color: #0ff;
 }
+
 .confettii:nth-child(14) {
   right: 95%;
   animation-duration: 22s;
   animation-delay: 7s;
   background-color: #ff0;
 }
+
 .confettii:nth-child(15) {
   right: 32%;
   animation-duration: 22s;
   animation-delay: 5s;
   background-color: #f00;
 }
+
 .confettii:nth-child(16) {
   right: 62%;
   animation-duration: 25s;
   animation-delay: 8s;
   background-color: #0ff;
 }
+
 .confettii:nth-child(17) {
   left: 32%;
   animation-duration: 18s;
   animation-delay: 6s;
   background-color: #ff0;
 }
+
 .confettii:nth-child(18) {
   right: 24%;
   animation-duration: 18s;
