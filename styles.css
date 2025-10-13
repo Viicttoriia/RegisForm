@@ -232,7 +232,6 @@ button {
   animation-delay: 1s;
   background-color: #ff0;
 }
-
 .confetti:nth-child(9) {
   right: 60%;
   animation-duration: 9s;
