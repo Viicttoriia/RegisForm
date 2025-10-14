@@ -29,6 +29,24 @@ h1 {
 .hide:hover .popup {
   font-size: 32px;
   opacity: 1;
+  animation: fadeIn .5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  }
+} 
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; 
+  }
+  to {
+    opacity: 0; 
+  }
 }
 
 .popup {
@@ -111,33 +129,23 @@ main {
   border-style:ridge;
   border-radius:2em;
   border-width:5px;
+  border: height 5px;
 }
-/*inputs*/
+
 input {
-  background-color: #eacaca;
-  border-radius: 2em;
-  border-color: #9999ff;
-  color:darkcyan;
-  width: 250px;
-  height: 30px;
-  padding: 10px;
-  margin: 5px;
-  box-sizing: border-box;
-}
-input[type="text"] {
-  
-}
-input[type="email"] {
-  
-}
-input[type="date"] {
+border-radius: 2em;
+padding: 7px;
+border-color:#f0f;
+color: green;
 
 }
 
-input [checkbox] {
+fieldset {
+  font-size:small;
+display: inline-block;
 }
 
-button {
+button { 
   width:100px;
   height:20px;
   background-color:#b3b36b;
@@ -146,8 +154,9 @@ button {
 }
 
 
-/* NOTES */
- /*highlighter*/
+/* NOTES NOTES NOTES NOTES NOTES NOTES NOTES */
+ 
+/* highlighter */
   /* border-color:rgb(238, 0, 255);
   border-width:3px;
   border-style:solid;*/
