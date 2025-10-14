@@ -143,6 +143,7 @@ color: green;
 fieldset {
   font-size:small;
 display: inline-block;
+border-style:none;
 }
 
 button { 
