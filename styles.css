@@ -69,7 +69,6 @@ main {
   opacity: 85%;
   border-radius: 2rem;
   padding:10%;
-  /*highligher*/
   border-color:#f4f4f6;
   border-width:3px;
   border-style:solid; 
@@ -148,15 +147,19 @@ border-style:none;
 
 button { 
   width:100px;
-  height:20px;
+  height:30px;
   background-color:#b3b36b;
   color:#561e1e; 
   border-color:#ffff99
 }
 
+.ButtonDiv {
+  display: flex;
+  justify-content: center;
+}
 
 /* NOTES NOTES NOTES NOTES NOTES NOTES NOTES */
- 
+/* NOTES NOTES NOTES NOTES NOTES NOTES NOTES */
 /* highlighter */
   /* border-color:rgb(238, 0, 255);
   border-width:3px;

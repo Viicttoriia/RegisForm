@@ -34,17 +34,18 @@ Prevents Default Form Submission Begavior
 
 ## TODO
 []- HTML
-    []- First and Last Name Inputs
-    []- Email Input
+    [x]- First and Last Name Inputs
+    [x]- Email Input
     []- Password Input
     []- Birthdate Input
-    []- Interests (checkbox)
+    [x]- Interests (checkbox)
     []- Submit Button
 []-Style
     [x]- Pick Color Scheme
-    []- Class Containers
-    []-
-    []-
+    [x]- Class Containers
+    [x]- Add movement
+    [x]- make index
+    [x]- make out line for submitted index
 []- Java
     []-
     []-
