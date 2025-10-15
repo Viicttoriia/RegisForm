@@ -80,7 +80,7 @@ main {
   text-align: center;
 }
 
-.Name {
+.Namediv {
   padding:20px;
   background-color:#b36b6b;
   border-radius: 2em;
@@ -136,7 +136,9 @@ border-radius: 2em;
 padding: 7px;
 border-color:#f0f;
 color: green;
-
+}
+input:hover {
+  background-color: aquamarine;
 }
 
 fieldset {
@@ -152,6 +154,12 @@ button {
   color:#561e1e; 
   border-color:#ffff99
 }
+button:hover {
+  border-color: pink;
+  border-style: dotted;
+  border-width: 3px;
+}
+
 
 .ButtonDiv {
   display: flex;

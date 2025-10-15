@@ -49,20 +49,21 @@
         <!---content division-->
         <!---Main content starts here-->
         <main class="mcontent">        
-<!--Form Starts Here-->
+        <!--Form Starts Here-->
             <container class="FormDiv">
-                <form action="/submited.html" method="post">
-<!--Name Start-->
-                    <div class="Name" id="formbox">
+                <form action="/submited.html" method="get">
+        <!--Name Start-->
+                    <div class="Namediv">
                         <h2> What's Your Name? </h2>
                             <p>
                                 <label for="FirstName">First Name:</label>
-                                <input id="FirstName" type="text" required></input>
+                                <input id="FirstName" type="text" id="user_input" required></input>
                                 <br>
                                 <br>
                                 <label for="LastName">Last Name:</label>
-                                <input id="LastName" type="text" required></input>
+                                <input id="LastName" type="text" id="user_input" required></input>
                             </p>
+                            
                     </div>
         <!--Email Start-->
                     <div class="Email" id="formbox">
@@ -135,10 +136,7 @@
                     </container>
                 </form>
             </container>
-            </main>
-            <!--startoutputdiv-->
-            <div id="outputArea"></div>
-            <!--endoutputdiv-->
+        </main>
         </body>
     <footer>
         <sub>Coded by Viicttoriia</sub>

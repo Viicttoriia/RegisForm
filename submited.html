@@ -11,10 +11,12 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-<container class="outputcontent">
-    <h6> THANKS </h6>
-    <p id="outputArea">
-        We really appreciate you,
+    <h3> THANKS! </h3>
+    <div id="Output">
+        <script>
+  const email = localStorage.getItem('userEmail'); // Or sessionStorage.getItem()
+  document.write("Your email is: " + email);
+</script>
         <br>
         You'll be hearing from us at your email "email"!
         <br>
@@ -24,6 +26,7 @@
         <br>
         maybe something to do with?? "options list" ??
     </p>
+</div>
 </container>
     </body>
     <footer>
