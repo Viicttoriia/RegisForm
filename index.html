@@ -131,14 +131,25 @@
                     <br>
                     <container class="Submit">
                         <div class="ButtonDiv">
-                            <button type="Submit">Submit</button>
+                            <button type="Submit" onclick="saveAndNavigate">Submit</button>
+                            <script>
+                                function saveAndNavigate() {
+                                    const user_input=document.getElementById("FisrtName","LastName").value;
+                                    localStorage.setItem('Name', userName);
+                                    window.location.herf ="/submitted.html";
+                                }
+                            </script>
                         </div>
                     </container>
                 </form>
+                <!--end of form-->
             </container>
+            <!--end of form container-->
         </main>
         </body>
     <footer>
+        <container>
         <sub>Coded by Viicttoriia</sub>
+        </container>
     </footer>
 </html>

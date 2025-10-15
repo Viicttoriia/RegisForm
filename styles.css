@@ -28,28 +28,19 @@ h1 {
 /* appearingtext */
 .hide:hover .popup {
   font-size: 32px;
-  opacity: 1;
-  animation: fadeIn .5s ease-in-out forwards;
+  opacity: 0;
+  animation: fadeIn .5s ease-in-out forwards; 
 }
 @keyframes fadeIn {
   from {
     opacity: 0; 
   }
   to {
-    opacity: 1; 
+    opacity: 100; 
   }
 } 
-
-@keyframes fadeOut {
-  from {
-    opacity: 1; 
-  }
-  to {
-    opacity: 0; 
-  }
-}
-
 .popup {
+  font-size: 32px;
   color:lightsteelblue;
   opacity: 0;
   margin-top: 50vh;
@@ -166,6 +157,9 @@ button:hover {
   justify-content: center;
 }
 
+.output {
+  
+}
 /* NOTES NOTES NOTES NOTES NOTES NOTES NOTES */
 /* NOTES NOTES NOTES NOTES NOTES NOTES NOTES */
 /* highlighter */
@@ -175,6 +169,8 @@ button:hover {
 
 /*DO NOT CODE PAST THIS POINT*/
 /*DO NOT CODE PAST THIS POINT*/
+
+
 /*DO NOT CODE PAST THIS POINT*/
 /*confetti start*/
 .confetti-container {
